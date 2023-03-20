@@ -20,7 +20,6 @@ class ErrorBoundary extends Component {
           There was an error with this listing.{" "}
           <Link to="/">Click here to go back to the home page</Link>
         </h2>
-        // this.props.errorComponent
       );
     }
 

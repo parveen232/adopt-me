@@ -35,14 +35,6 @@ const Details = () => {
 
 function DetailsErrorBoundary(props) {
   return (
-    // <ErrorBoundary
-    //   errorComponent={
-    //     <h2>
-    //       There was an error with this listing.{" "}
-    //       <Link to="/">Click here to go back to the home page</Link>
-    //     </h2>
-    //   }
-    // >
     <ErrorBoundary>
       <Details {...props} />
     </ErrorBoundary>
